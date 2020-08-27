@@ -19,19 +19,25 @@ for (var i = 1; i <= 1; i++) {
 
 // 4 Sommiamo i due numeri
 var somma = sceltaNumero + numero;
+console.log(somma);
 
 // 5 Stabiliamo se la somma dei due numeri è pari o dispari
-if (somma % 2 == 0) {
-  console.log(somma + " è pari");
-}
-else {
-  console.log(somma + " è dispari");
+function checkPariDispari(somma)
+{
+  if (somma % 2 == 0);
+  {
+  return 'è pari';
+  }
+  return 'è dispari';
 }
 
+
 // 6 Dichiariamo chi ha vinto.
-if(somma == sceltaPariDispari){
-  console.log('Hai Vinto!!')
-} else (somma != sceltaPariDispari)
+if (somma == 'è pari') {
+console.log("Hai vinto");
+}else {
+  (somma == 'è dispari')
 {
-  console.log('Hai Perso!!')
+  console.log("Ha vinto il computer");
+}
 }
